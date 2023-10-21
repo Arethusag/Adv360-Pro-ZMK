@@ -145,41 +145,41 @@
 
         default_layer {
             bindings = <
-    &pdllr   &pkp_n1     &lkp_n2         &lkp_n3               &lkp_n4   &akp_n5             &mo 3                                                                       &mo 3       &ekp_n6  &rkp_n7        &rkp_n8            &rkp_n9      &skp_n0    &eprcnt
-   &kp TAB   &kp SEMI    &kp COMMA       &kp PERIOD            &kp P     &kp Y               &ctrlc                                                                      &ctrlz      &kp F    &kp G          &kp C              &kp R        &kp L      &bhash
-   &kp ESC   &kp A       &kp O           &kp E                 &kp U     &kp I               &ctrlv        &kp LEFT_WIN &kp LCTRL  &none   &none  &kp RCTRL  &kp RALT    &ctrly      &kp D    &kp H          &kp T              &kp N        &kp S      &kp MINUS
-   &kp LSHFT &kp APOS    &kp Q           &kp J                 &kp K     &kp X               &none         &none        &kp HOME   &none   &none  &kp PG_UP  &none       &none       &kp B    &kp M          &kp W              &kp V        &kp Z      &kp RSHFT
-   &to 1     &kp GRAVE   &kp CAPS        &kp LEFT             &kp RIGHT                      &kp BACKSPACE &kp DELETE   &kp END                   &kp PG_DN  &kp ENTER   &kp SPACE            &kp UP         &kp DOWN           &kp SLASH    &acaret    &to 2
+    &pdllr   &pkp_n1     &lkp_n2         &lkp_n3               &lkp_n4   &akp_n5             &mo 3                                                                                 &mo 3       &ekp_n6  &rkp_n7        &rkp_n8            &rkp_n9      &skp_n0    &eprcnt
+   &kp TAB   &kp SEMI    &kp COMMA       &kp PERIOD            &kp P     &kp Y               &ctrlc                                                                                &ctrlz      &kp F    &kp G          &kp C              &kp R        &kp L      &bhash
+   &kp ESC   &kp A       &kp O           &kp E                 &kp U     &kp I               &ctrlv                  &kp LEFT_WIN &kp LCTRL  &kp RCTRL  &kp RALT                   &ctrly      &kp D    &kp H          &kp T              &kp N        &kp S      &kp MINUS
+   &kp LSHFT &kp APOS    &kp Q           &kp J                 &kp K     &kp X                                                    &kp HOME   &kp &PG_UP                                        &kp B    &kp M          &kp W              &kp V        &kp Z      &kp RSHFT
+   &to 1     &kp GRAVE   &kp CAPS        &kp LEFT             &kp RIGHT                                &kp BACKSPACE &kp DELETE   &kp END    &kp PG_DN  &kp ENTER   &kp SPACE                           &kp UP         &kp DOWN           &kp SLASH    &acaret    &to 2
             >;
         };
 
         layer_fn {
             bindings = <
- &kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5             &mo 2                                                   &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
-  &to 0  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans    &mo 1 
+ &kp F11 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &mo 2                                                                         &mo 3   &kp F6  &kp F7  &kp F8   &kp F9   &kp F10  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                        &trans  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans                  &trans  &trans         &trans  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                 &trans                  &trans                         &trans  &trans  &trans   &trans   &trans   &trans
+ &to 0   &trans  &trans  &trans  &trans                          &trans &trans  &trans                  &trans  &trans  &trans                 &trans  &trans   &trans   &trans   &mo 1 
             >;
         };
 
         layer_keypad {
             bindings = <
-  &trans      &trans   &trans           &trans      &trans   &trans                    &mo 0                                                          &mo 3   &trans    &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &trans
-  &trans      &trans   &trans           &trans      &trans   &trans                    &trans                                                          &trans   &trans     &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &trans
-  &trans      &trans   &trans           &trans      &trans   &trans                    &trans    &trans   &trans   &trans   &trans   &trans      &trans      &trans   &trans     &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS   &trans
-  &trans      &trans   &trans           &trans      &trans   &trans                    &trans    &trans   &trans   &trans   &trans   &trans      &trans      &trans   &trans     &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER   &trans
-  &to 0   &trans   &trans  &kp LEFT_ARROW  &kp RIGHT                    &kp BACKSPACE  &kp DEL   &trans                   &trans  &kp ENTER  &kp SPACE          &kp UP_ARROW      &kp DOWN      &kp KP_N0       &kp KP_DOT   &to 0
+  &trans      &trans   &trans  &trans      &trans      &trans   &mo 0                                                                        &mo 3    &trans     &kp KP_NUM    &kp KP_EQUAL   &kp KP_DIVIDE  &kp KP_MULTIPLY   &trans
+  &trans      &trans   &trans  &trans      &trans      &trans   &trans                                                                       &trans   &trans     &kp KP_N1     &kp KP_N2      &kp KP_N3      &kp KP_ENTER      &trans
+  &trans      &trans   &trans  &trans      &trans      &trans   &trans                    &trans   &trans   &trans   &trans                  &trans   &trans     &kp KP_N7     &kp KP_N8      &kp KP_N9      &kp KP_MINUS      &trans
+  &trans      &trans   &trans  &trans      &trans      &trans                                      &trans   &trans                                    &trans     &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS       &trans
+  &to 0       &trans   &trans  &kp LEFT    &kp RIGHT                      &kp BACKSPACE  &kp DEL   &trans   &trans  &kp ENTER  &kp SPACE                         &kp UP        &kp DOWN       &kp KP_N0      &kp KP_DOT        &to 0
             >;       
         };
 
         layer_mod {
             bindings = <
-  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &trans                                                                              &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &trans
-  &trans         &trans         &trans         &trans         &trans         &trans                       &bootloader                                                                         &bootloader         &trans         &trans         &trans         &trans         &trans   &trans
-  &trans         &trans         &trans         &trans         &trans         &trans            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &trans   &trans   &trans  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &trans         &trans         &trans         &trans         &trans   &trans
-  &trans         &trans         &trans         &trans         &trans         &trans                             &trans       &trans   &trans   &trans   &trans       &trans       &trans                   &trans         &trans         &trans         &trans         &trans         &trans   &trans
- &trans         &trans         &trans    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &trans                       &trans  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &trans         &trans  &trans
+  &trans         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4  &trans                                                                              &trans      &bt BT_SEL 0        &bt BT_SEL 1   &bt BT_SEL 2            &bt BT_SEL 3   &bt BT_SEL 4   &trans
+  &trans         &trans         &trans         &trans         &trans         &trans        &bootloader                                                                         &bootloader &trans              &trans         &trans                  &trans         &trans         &trans
+  &trans         &trans         &trans         &trans         &trans         &trans        &trans            &trans &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &trans                &trans      &trans  &bt BT_CLR  &bt BT_CLR     &rgb_ug RGB_MEFS_CMD 5  &trans         &trans         &trans
+  &trans         &trans         &trans         &trans         &trans         &trans                                 &trans                  &trans                                         &trans              &trans         &trans                  &trans         &trans         &trans
+  &trans         &trans         &trans         &bl BL_INC     &bl BL_DEC                           &rgb_ug RGB_TOG  &bl BL_TOG              &bl BL_TOG   &rgb_ug RGB_TOG                                       &bl BL_INC     &bl BL_DEC              &trans         &trans         &trans
             >;
         };
 
