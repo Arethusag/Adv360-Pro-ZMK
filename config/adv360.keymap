@@ -148,7 +148,7 @@
     &pdllr   &pkp_n1     &lkp_n2         &lkp_n3               &lkp_n4   &akp_n5             &mo 3                                                                                 &mo 3       &ekp_n6  &rkp_n7        &rkp_n8            &rkp_n9      &skp_n0    &eprcnt
    &kp TAB   &kp SEMI    &kp COMMA       &kp PERIOD            &kp P     &kp Y               &ctrlc                                                                                &ctrlz      &kp F    &kp G          &kp C              &kp R        &kp L      &bhash
    &kp ESC   &kp A       &kp O           &kp E                 &kp U     &kp I               &ctrlv                  &kp LEFT_WIN &kp LCTRL  &kp RCTRL  &kp RALT                   &ctrly      &kp D    &kp H          &kp T              &kp N        &kp S      &kp MINUS
-   &kp LSHFT &kp APOS    &kp Q           &kp J                 &kp K     &kp X                                                    &kp HOME   &kp &PG_UP                                        &kp B    &kp M          &kp W              &kp V        &kp Z      &kp RSHFT
+   &kp LSHFT &kp APOS    &kp Q           &kp J                 &kp K     &kp X                                                    &kp HOME   &kp PG_UP                                         &kp B    &kp M          &kp W              &kp V        &kp Z      &kp RSHFT
    &to 1     &kp GRAVE   &kp CAPS        &kp LEFT             &kp RIGHT                                &kp BACKSPACE &kp DELETE   &kp END    &kp PG_DN  &kp ENTER   &kp SPACE                           &kp UP         &kp DOWN           &kp SLASH    &acaret    &to 2
             >;
         };
